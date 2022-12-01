@@ -1,11 +1,34 @@
-var questions
- 
-var questions = document.getElementsByClassName('Q2');
-if (questions.style.display === 'hidden') {
-  questions.style.display = 'block';  
-} else {
-questions.style.display = 'none'    
+let question = {
+  title: "Vinny Mauro",
+  alternatives: ["Noah Thompson", "Vinny Mauro", "Maria Brink", "Jack Gurecki"]
+correctAnswer: 1
 }
 
-document.getElementsByClassName("button").onclick = (startGame)
-console.log
+function showQuestion() {
+  let title = document.getElementById("question 1")
+}
+
+function showQuestion() {
+  let title = document.getElementById("Q2")
+}
+
+
+function showQuestion() {
+  let title = document.getElementById("Q3")
+}
+
+
+function showQuestion() {
+  let title = document.getElementById("Q4")
+}
+
+
+function showQuestion() {
+  let title = document.getElementById("Q5")
+}
+
+
+
+
+
+
